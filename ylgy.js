@@ -1,11 +1,3 @@
-/*************************************
-羊了个羊 速通 随时可能失效 理性游戏-by 小熊同学
-日期:2022.09.16
-[mitm]
-hostname = *.easygame2021.com
-[rewrite local]
-^https?:\/\/cat\-match\.easygame2021\.com\/sheep\/v1\/game\/map\_info(.*) url script-response-body https://raw.githubusercontent.com/RoninXj/sy/main/ylgy.js
-**************************************/
 var body = $response.body
 var url = $request.url
 
